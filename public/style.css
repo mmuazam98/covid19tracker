@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 110, 110);
+  background: linear-gradient(to left bottom, #00b890, rgb(0, 143, 143));
+  background: linear-gradient(to left bottom, #00b890, rgb(0, 219, 219));
+}
+nav {
+  z-index: 99999;
+  background-color: #2ee0ff;
+  background-color: rgb(0, 110, 110);
+  background: linear-gradient(to left bottom, #00b890, rgb(0, 143, 143));
+  color: white;
+}
+.navbar-toggler {
+  border: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+  color: white !important;
+}
+nav ul li:hover {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+nav img {
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+nav img:hover {
+  transform: rotate(360deg);
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  margin-top: -50px;
+}
+#main {
+  margin-top: 50px;
+}
+.line {
+  border: 1.5px solid black;
+  border-radius: 40px;
+  width: 50vw;
+  margin: 30px auto;
+}
+.text {
+  font-family: fantasy;
+}
+#demo {
+  font-family: fantasy;
+}
+#demo button {
+  background-color: #000000;
+  border: none;
+}
+.img {
+  width: 350px !important;
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 100vw !important;
+  }
+  .img {
+    width: 200px !important;
+  }
+}

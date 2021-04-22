@@ -1,0 +1,49 @@
+body{
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(0, 110, 110);
+  background: linear-gradient(to left bottom, #00b890,rgb(0, 143, 143) );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+      
+nav{
+  z-index: 99999;
+  background-color: #2ee0ff;
+  background-color: rgb(0, 110, 110);
+  background: linear-gradient(to left bottom, #00b890,rgb(0, 143, 143) );
+  color: white;
+  width:100%;
+  
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  margin-top: -50px;
+}
+.navbar-toggler{
+  border: none;
+}
+nav ul li{
+  display: inline;
+  margin-right: 5px;
+  color: white!important;
+}
+nav ul li:hover{
+  font-size: 20px;
+  margin-bottom: 0;
+  
+}
+nav img{
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+nav img:hover{
+  transform: rotate(360deg);
+}
+
+footer i, footer h6{
+  color: rgb(173, 173, 173);
+}

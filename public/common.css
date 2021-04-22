@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  position: relative;
+  top: 60px;
+}
+.img {
+  width: 320px !important;
+}
+table {
+  top: 200px;
+}
+.line {
+  border: 1.5px solid black;
+  border-radius: 40px;
+  width: 50vw;
+  margin: 30px auto;
+}
+
+.data {
+  display: inline;
+  font-weight: 900;
+}
+.rotate {
+  animation: rotate 150s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(36000deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .img {
+    width: 200px !important;
+  }
+}
